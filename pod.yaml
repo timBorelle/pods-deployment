@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myfirstpod
+  labels:
+    env: test
+spec:
+  containers:
+  - name: myfirstflask
+    image: gcr.io/docker-miage/flask-app 
+    imagePullPolicy: IfNotPresent
+    ports:
+    - containerPort: 80
