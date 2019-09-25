@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: myfirstflask
-    image: gcr.io/docker-miage/flask-app 
+    image: gcr.io/skilled-index-253808/flask-app 
     imagePullPolicy: IfNotPresent
     ports:
     - containerPort: 80

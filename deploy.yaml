@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myfirstpod
-        image: gcr.io/docker-miage/flask-app
+        image: gcr.io/skilled-index-253808/flask-app
         ports:
         - containerPort: 80
